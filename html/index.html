@@ -1,0 +1,56 @@
+<html  ng-app="crimeDataApp">
+<head>
+    <title>Crime Data</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+
+    <div ng-controller="CrimeListCtrl">
+       <ul>
+        <li ng-repeat="crime in crimes">
+            {{crime.category}}
+            <p>{{crime.location_type}}</p>
+        </li>
+  </ul>
+    </div>
+
+    <table class="table" width="647">
+        <thead>
+        <tr>
+        <th>Month</th>
+        <th></th>
+        <th>Address</th>
+        <th>mail</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>1</td>
+        <td>Thomas bell</td>
+        <td>Brick lane, London</td>
+        <td>thomas@yahoo.com</td>
+        </tr>
+        <tr>
+        <td height="29">2</td>
+        <td>Yan Chapel</td>
+        <td>Toronto Australia</td>
+        <td>Yan@yahoo.com</td>
+        </tr>
+        <tr>
+        <td>3</td>
+        <td>Pit Sampras</td>
+        <td>Berlin, Germany</td>
+        <td>Pit @yahoo.com</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+</body>
+</html>
