@@ -1,0 +1,11 @@
+README.rst
+setup.py
+crime_data/__init__.py
+crime_data/views.py
+crime_data.egg-info/PKG-INFO
+crime_data.egg-info/SOURCES.txt
+crime_data.egg-info/dependency_links.txt
+crime_data.egg-info/entry_points.txt
+crime_data.egg-info/not-zip-safe
+crime_data.egg-info/requires.txt
+crime_data.egg-info/top_level.txt
